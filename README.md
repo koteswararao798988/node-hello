@@ -7,20 +7,20 @@ Great for testing simple deployments to the cloud
 ## To host node.js application in docker container with the help of Dockerfile
 
 # Working Process
--->First launch brand new EC2 instance
--->Next install docker and setup the docker with commands
+#First launch brand new EC2 instance
+#Next install docker and setup the docker with commands
    "sudo yum -y install docker"
    "sudo systemctl start docker"
    "sudo systemctl enable docker"
    "sudo chmod 666 /var/run/docker.sock"
--->Next install GIT tool to clone the node.js application code from the remote platform(Github)
+#Next install GIT tool to clone the node.js application code from the remote platform(Github)
    "sudo yum -y install git"
    "git clone URL link of the node.js application repository"
--->Next go inside the cloned node.js code repository with command as
+#Next go inside the cloned node.js code repository with command as
    "cd cloned repository name"
--->Next write the Docker file with vi/vim edit mode
+#Next write the Docker file with vi/vim edit mode
    "sudo vi Dockerfile"
--->Write the Dockerfile with Instructions as 
+#Write the Dockerfile with Instructions as 
 # Use an official Node.js runtime as a base image
 FROM node:14
 
