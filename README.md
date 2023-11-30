@@ -15,7 +15,7 @@ Great for testing simple deployments to the cloud
    "sudo chmod 666 /var/run/docker.sock"
 -->Next install GIT tool to clone the node.js application code from the remote platform(Github)
    "sudo yum -y install git"
-   "git clone <URL link of the node.js application repository>"
+   "git clone URL link of the node.js application repository"
 -->Next write the Docker file with vi/vim edit mode
    "sudo vi Dockerfile"
 -->Write the Dockerfile with Instructions as 
